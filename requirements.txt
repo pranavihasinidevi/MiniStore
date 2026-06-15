@@ -1,0 +1,5 @@
+# MiniStore v3 — Streamlit + OpenAI Support Chatbot
+# Install: pip install -r requirements.txt
+
+streamlit>=1.32.0
+openai>=1.30.0

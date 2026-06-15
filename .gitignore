@@ -1,0 +1,42 @@
+# ════════════════════════════════════════
+# MiniStore — .gitignore
+# ════════════════════════════════════════
+
+# ── Streamlit secrets (NEVER commit this) ──
+.streamlit/secrets.toml
+
+# ── Python cache ──
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+
+# ── Virtual environments ──
+.env
+.venv
+env/
+venv/
+ENV/
+
+# ── Environment variable files ──
+.env
+.env.local
+.env.production
+
+# ── IDE / Editor ──
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Logs ──
+*.log
+logs/
+
+# ── Build artifacts ──
+dist/
+build/
+*.egg-info/
